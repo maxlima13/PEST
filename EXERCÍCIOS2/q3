@@ -1,0 +1,8 @@
+numero = int(input("Digite um número inteiro: "))
+
+if 10 < numero < 20: 
+    print("maior que 10 e menor que 20")
+elif numero > 30 or numero < 5: 
+    print("maior que 30 ou menor que 5")
+else: 
+    print("não é maior que 10 e menor que 20 e não é maior que 30 ou menor que 5")
