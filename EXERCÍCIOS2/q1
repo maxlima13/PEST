@@ -1,0 +1,11 @@
+num = int(input("digite um número: "))
+
+if num == 0:
+    print("zero é neutro")
+
+elif num % 2 == 0: 
+    print("seu número é par")
+
+else: 
+    impares = num
+    print("seu número é impar")
